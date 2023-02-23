@@ -4,6 +4,10 @@ import java.util.List;
 
 import cars.com.model.Car;
 
+/**
+ * Service interface
+ * @author VLadislav K
+ */
 public interface CarService {
 	List <Car> getAllCars();
 	
